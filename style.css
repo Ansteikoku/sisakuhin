@@ -1,0 +1,9 @@
+/* 共通スタイル */
+body { font-family: monospace; background:#f7fdfa; color:#0b3d0b; margin:0; }
+header { background:#7ed957; padding:10px; text-align:center; font-weight:bold; }
+#board-list { display:flex; overflow-x:auto; background:#b3e28a; padding:5px; gap:10px; }
+.thread-box { background:#e9f6d9; border:1px solid #b6d895; border-radius:10px; margin:10px; padding:10px; white-space:pre-wrap;}
+.post-box { background:#e9f6d9; border:1px solid #b6d895; border-radius:10px; margin:10px; padding:10px; white-space:pre-wrap;}
+form { max-width:800px; margin:10px auto; background:#d9f0bb; padding:10px; border-radius:10px;}
+textarea { width:100%; font-family:monospace; min-height:80px; }
+button { background:#7ed957; border:none; border-radius:8px; padding:8px 15px; cursor:pointer; font-weight:bold; }
